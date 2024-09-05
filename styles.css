@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background: rgb(248, 227, 230);
+    font-family: "Roboto", sans-serif;
+}
+
+.shape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: black;
+    cursor: pointer;
+    transition: none; 
+}
+
+.shape:hover {
+    border-radius: 50%;
+    background: hotpink;
+}
+
+
+.transition {
+    transition: all 0.5s ease-in-out;
+}
